@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 30px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, 'Roboto', Arial,
+    sans-serif;
+}
+.navbar {
+  background-color: rgba(73, 170, 234, 0.83);
+  height: px;
+}
+.navlogo {
+  background-image: url(img/Captura_de_pantalla_2024-03-07_200947-removebg-preview.png);
+  
+  background-repeat: no-repeat;
+  height: 360px;
+  width: 400px;
+}
+a li {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 0px;
+}
+a li:hover {
+  color: #121213;
+  transition: all 0.2 ease-in;
+}
+
+.jumbotron {
+  background-image: url(img/archivo-906322-093257.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 2000px;
+}
+.galeria {
+  margin-top: 10px;
+  height: 100px;
+  color: rgb(133, 190, 239);
+  border: solid 1px black;
+}
+.gruposespeciales {
+  background-image: url(img/cero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+.formadores {
+  background-image: url(img/escueladepolicia.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+.noticias {
+  background-image: url(img/650x440_210815145541_60809.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+.tramites {
+  background-image: url(img/images.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+.carta {
+  background-image: url(img/650x440_210815145541_60809.jpeg);
+}
+.footer {
+  background-color: rgba(73, 170, 234, 0.83);
+  margin-top: 30%;
+  color: white !important;
+}
+.footerlogo {
+  background-image: url(img/Captura_de_pantalla_2024-03-07_200947-removebg-preview.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+  width: 1000px;
+}
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+footer li:hover {
+  color: #121213;
+  transition: all 0.2 ease-in;
+}
+footer li:hover path {
+  fill: #121213;
+  cursor: pointer;
+  transition: all 0.2 ease-in;
+}
+.contenedor-redes {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.redes {
+  width: 55px;
+}
+.copyright {
+  text-align: center;
+}
